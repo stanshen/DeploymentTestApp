@@ -13,5 +13,10 @@ namespace DeploymentTestApp.Controllers
         {
             return View();
         }
+
+        public ActionResult GetAll()
+        {
+            return View();
+        }
     }
 }
